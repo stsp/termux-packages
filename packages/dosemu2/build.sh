@@ -6,7 +6,7 @@ TERMUX_PKG_VERSION="2.0pre9-git"
 TERMUX_PKG_SRCURL=git+https://github.com/dosemu2/dosemu2.git
 TERMUX_PKG_GIT_BRANCH=devel
 TERMUX_PKG_AUTO_UPDATE=true
-TERMUX_PKG_BUILD_DEPENDS="libandroid-posix-semaphore, libandroid-glob"
+TERMUX_PKG_BUILD_DEPENDS="libandroid-posix-semaphore, libandroid-glob, pulseaudio"
 # LTO breaks on i386 build
 TERMUX_PKG_EXTRA_CONFIGURE_ARGS="--disable-lto"
 
